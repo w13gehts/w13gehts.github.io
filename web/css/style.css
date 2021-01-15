@@ -6,7 +6,8 @@ body {
 p {
   font-size: 18px;
   line-height: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 h1 {
@@ -232,6 +233,20 @@ h1 {
   width: 100%;
   background: linear-gradient(to right, #000000, #2b2b2b);
   padding: 40px 0;
+}
+
+.portfolio p {
+  color: #f2f2f2;
+  font-size: 15px;
+  font-family: trebuchet MS, "Lucida Sans Unicode", "Lucida Grande";
+  text-align: center;
+}
+
+.portfolio .sobre_mim {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 0.1em;
 }
 
 .portfolio .subtitulo {
