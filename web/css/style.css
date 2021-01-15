@@ -287,12 +287,22 @@ h1 {
   color: #131313;
 }
 
+.footer_contato ul li a span {
+  position: relative;
+  bottom: 8px;
+}
+
+.footer_contato ul li a span:hover {
+  text-decoration: underline;
+}
+
 .footer_redes_sociais ul li {
   display: inline-block;
   margin-right: 5px;
 }
 
-.footer_redes_sociais ul li a {
+/* icones das redes sociais no footer */
+.icones {
   border: 3px solid #131313;
   border-radius: 25px;
   display: block;
@@ -301,13 +311,44 @@ h1 {
   padding: 4px 0;
   text-align: center;
   margin-bottom: 25px;
+
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-.footer_redes_sociais ul li a:hover {
+.icones:hover {
   border-color: #ffd700;
-  background: #131313;
+  background-color: #131313;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
+.icone1 {
+  background-image: url("../img/redes\ sociais/behance-logo.png");
+}
+
+.icone1:hover {
+  background-image: url("../img/redes\ sociais/behance-logo-amarelo.png");
+}
+
+.icone2 {
+  background-image: url("../img/redes\ sociais/linkedin-logo.png");
+}
+
+.icone2:hover {
+  background-image: url("../img/redes\ sociais/linkedin-logo-amarelo.png");
+}
+
+.icone3 {
+  background-image: url("../img/redes\ sociais/instagram-logo.png");
+}
+
+.icone3:hover {
+  background-image: url("../img/redes\ sociais/instagram-logo-amarelo.png");
+}
+
+/* copyright  */
 .copyright {
   width: 100%;
   background: #131313;
