@@ -140,6 +140,10 @@ h1 {
   color: #ffd700;
 }
 
+.header_navegacao ul li .menu_ativo {
+  color: #ffd700;
+}
+
 /* Introdução */
 
 .introducao {

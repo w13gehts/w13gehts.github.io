@@ -1,0 +1,8 @@
+.capa_portfolio {
+  width: 100%;
+  height: 380px;
+  background: url("../img/capa-portfolio.jpg") no-repeat center;
+  margin-top: 230px;
+  text-align: center;
+  padding-top: 70px;
+}
