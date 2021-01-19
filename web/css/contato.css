@@ -1,0 +1,9 @@
+.capa_contato {
+  width: 100%;
+  height: 380px;
+  background: linear-gradient(to right, #000000ab, #1c1c1c8c),
+    url("../img/capa-contato.jpg") no-repeat center;
+  margin-top: 230px;
+  text-align: center;
+  padding-top: 70px;
+}
