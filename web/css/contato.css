@@ -7,3 +7,54 @@
   text-align: center;
   padding-top: 70px;
 }
+
+.contato {
+  padding: 300px 0;
+  margin-bottom: -80px;
+}
+
+.contato_form label {
+  display: block;
+  color: #f2f2f2;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 4px;
+}
+
+.contato_form input {
+  display: block;
+  width: 500px;
+  border: 3px solid #ffd700;
+  border-radius: 15px;
+  background: none;
+  color: #f2f2f2;
+  padding: 5px 8px;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode";
+  margin: 0 auto;
+}
+
+.contato_form textarea {
+  display: block;
+  width: 500px;
+  height: 120px;
+  border: 3px solid #ffd700;
+  border-radius: 15px;
+  background: none;
+  color: #f2f2f2;
+  padding: 5px 8px;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode";
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.contato_form button {
+  padding: 5px 8px;
+  background: none;
+}
