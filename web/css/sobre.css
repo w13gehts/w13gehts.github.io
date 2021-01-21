@@ -4,13 +4,6 @@
   color: #fff;
 }
 
-.quote-externo cite {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  letter-spacing: 0.1em;
-}
-
 .quote {
   width: 100%;
   height: 240px;
@@ -39,6 +32,10 @@
   padding-top: 70px;
 }
 
+.sobre .sobre_mim img {
+  margin: 20px auto;
+}
+
 .sobre h2 {
   color: #f2f2f2;
 }
@@ -46,6 +43,7 @@
 .sobre p {
   color: #f2f2f2;
   max-width: 900px;
+  text-align: justify;
 }
 .sobre_mim img {
   margin: 25px;

@@ -1,0 +1,57 @@
+/* estilo para tablets */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .servicos_lista {
+    margin: 0 auto;
+    padding-left: 60px;
+  }
+}
+
+/* estilo para smartphones */
+@media only screen and (max-width: 787px) {
+  .header_total {
+    position: relative;
+  }
+
+  .header_total img {
+    width: 40%;
+  }
+
+  .header_navegacao ul li {
+    margin: 5px;
+  }
+
+  .introducao {
+    height: 300px;
+
+    background: linear-gradient(to right, #000000cc, #1c1c1cba),
+      url("../img/capa-intro-mobile.jpg") no-repeat center;
+    margin-top: 0;
+    padding-top: 35px;
+  }
+
+  .call_to_action {
+    padding: 10px;
+  }
+
+  .sobre {
+    margin-top: 0;
+    margin-bottom: -180px;
+    height: 950px;
+  }
+
+  .sobre_mim {
+    margin: 0 auto;
+    width: 420px;
+  }
+
+  .sobre p {
+    font-size: 15px;
+  }
+
+  .quote {
+    padding-top: 50px;
+  }
+  .quote-externo {
+    max-width: 450px;
+  }
+}

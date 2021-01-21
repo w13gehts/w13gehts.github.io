@@ -10,6 +10,11 @@ p {
     "Lucida Sans", Arial, sans-serif;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 h1 {
   font-size: 48px;
   font-weight: bold;
@@ -150,6 +155,10 @@ h1 {
 .header_navegacao ul li {
   display: inline-block;
   margin: 10px;
+}
+
+.header img {
+  margin: 0 auto;
 }
 
 .header_navegacao ul li a {
