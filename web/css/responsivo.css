@@ -8,6 +8,10 @@
   .portfolio_lista_mobile {
     display: none;
   }
+
+  .contato {
+    margin-bottom: -120px;
+  }
 }
 
 /* estilo para smartphones */
@@ -64,6 +68,7 @@
 
   .portfolio_lista_mobile {
     display: block;
+    padding-left: 10px;
   }
 
   .portfolio_seo p {
@@ -74,5 +79,23 @@
   .portfolio_aps p {
     font-size: 15px;
     text-align: justify;
+  }
+
+  .logotipos_websites li {
+    padding: 15px 0 10px 50px;
+    width: 85%;
+  }
+
+  .contato {
+    padding-top: 20px;
+    margin-bottom: -200px;
+  }
+
+  .contato_form input {
+    width: 300px;
+  }
+
+  .contato_form textarea {
+    width: 300px;
   }
 }

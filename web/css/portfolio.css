@@ -33,9 +33,8 @@
   text-align: justify;
 }
 
-.logotipos_websites {
-  margin: 0 auto;
-  /* text-align: center; */
+.logotipos_websites li {
+  padding-left: 100px;
 }
 
 .logotipos_websites li a {
