@@ -4,6 +4,10 @@
     margin: 0 auto;
     padding-left: 60px;
   }
+
+  .portfolio_lista_mobile {
+    display: none;
+  }
 }
 
 /* estilo para smartphones */
@@ -22,7 +26,6 @@
 
   .introducao {
     height: 300px;
-
     background: linear-gradient(to right, #000000cc, #1c1c1cba),
       url("../img/capa-intro-mobile.jpg") no-repeat center;
     margin-top: 0;
@@ -53,5 +56,23 @@
   }
   .quote-externo {
     max-width: 450px;
+  }
+
+  .portfolio_lista_pc {
+    display: none;
+  }
+
+  .portfolio_lista_mobile {
+    display: block;
+  }
+
+  .portfolio_seo p {
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .portfolio_aps p {
+    font-size: 15px;
+    text-align: justify;
   }
 }

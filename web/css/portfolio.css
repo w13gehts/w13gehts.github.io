@@ -1,7 +1,8 @@
 .capa_portfolio {
   width: 100%;
   height: 380px;
-  background: url("../img/capa-portfolio.jpg") no-repeat center;
+  background: linear-gradient(to right, #000000cc, #1c1c1cba),
+    url("../img/capa-portfolio.jpg") no-repeat center;
   margin-top: 230px;
   text-align: center;
   padding-top: 70px;
@@ -22,6 +23,14 @@
 
 .portfolio_sites li:last-child {
   margin-top: 15px;
+}
+
+.portfolio_seo p {
+  text-align: justify;
+}
+
+.portfolio_aps p {
+  text-align: justify;
 }
 
 .logotipos_websites {

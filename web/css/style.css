@@ -297,8 +297,12 @@ h1 {
   background: #ffd700;
 }
 
-.portfolio_lista li:last-child {
+.portfolio_lista_pc li:last-child {
   margin-top: 15px;
+}
+
+.portfolio_lista_mobile {
+  display: none;
 }
 
 .portfolio .call_to_action p {
@@ -344,6 +348,10 @@ h1 {
 .footer_contato ul li a span {
   position: relative;
   bottom: 8px;
+}
+
+.footer_contato ul li a img {
+  display: inline-block;
 }
 
 .footer_contato ul li a span:hover {
