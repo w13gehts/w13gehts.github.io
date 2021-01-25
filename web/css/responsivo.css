@@ -98,4 +98,9 @@
   .contato_form textarea {
     width: 300px;
   }
+
+  /* javascript */
+  .js [data-slide-nav] button {
+    display: none;
+  }
 }

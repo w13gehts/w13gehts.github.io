@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/portfolio.css">
   <link rel="stylesheet" href="css/responsivo.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -34,22 +35,23 @@
 
   <section class="introducao capa_portfolio">
     <div class="container">
-      <h1>Portfolio</h1>
-      <p>Design, Código e SEO</p>
-      <a href="contato.html" class="btn">Orçamento</a>
+      <h1 data-anime="300" class="fadeInDown">Portfolio</h1>
+      <p data-anime="600" class="fadeInDown">Design, Código e SEO</p>
+      <a data-anime="900" href="contato.html" class="btn">Orçamento</a>
     </div>
   </section>
 
   <section class="container">
     <div class="portfolio_imagens">
-      <h2 class="subtitulo">Edição de Imagens</h2>
-      <ul class="portfolio_lista_pc">
+      <h2 data-anime="1200" class="subtitulo fadeInDown">Edição de Imagens</h2>
+      <ul data-anime="1200" class="portfolio_lista_pc fadeInDown">
         <li class="grid-11"><img src="./img/artes/arte-controle.jpg" alt="Arte de videogame"></li>
         <li class="grid-5"><img src="./img/artes/arte-gameday.jpg" alt="Arte do dia do gamer"></li>
         <li class="grid-16"><img src="./img/artes/arte-series.jpg" alt="Arte Stream"></li>
       </ul>
 
-      <ul class="portfolio_lista_mobile">
+
+      <ul data-anime="1200" class="portfolio_lista_mobile fadeInDown">
         <li class="grid-11"><img src="./img/mobile/arte-controle-mobile.jpg" alt="Arte de videogame"></li>
         <li class="grid-5"><img src="./img/artes/arte-gameday.jpg" alt="Arte do dia do gamer"></li>
         <li class="grid-16"><img src="./img/mobile/gta-mobile.jpg" alt="Arte GTA"></li>
@@ -174,7 +176,8 @@
       </div>
     </div>
   </footer>
-
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 
 </body>
 

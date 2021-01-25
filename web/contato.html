@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/contato.css">
   <link rel="stylesheet" href="css/responsivo.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -33,7 +34,7 @@
   </header>
 
   <div class="background_escuro">
-    <div class="contato container">
+    <div data-anime="300" class="contato container fadeInDown">
 
       <form id="form_contato" class="contato_form grid-">
         <label for="nome">Nome</label>
@@ -54,38 +55,10 @@
     </div>
   </div>
 
-
-  <!-- <section class="introducao capa_contato">
-    <div class="container">
-      <h1>Contato</h1>
-      <p>Entre em contato pelo formulário abaixo e faça um orçamento</p>
-    </div>
-  </section>
-
-  <section class="contato container">
-    <form id="form_contato" class="contato_form grid-8">
-      <label for="nome">Nome</label>
-      <input type="text" id="nome">
-
-      <label for="email">E-mail</label>
-      <input type="text" id="email">
-
-      <label for="telefone">Telefone</label>
-      <input type="text" id="telefone">
-
-      <label for="mensagem">Mensagem</label>
-      <textarea id="mensagem"></textarea>
-
-      <button type="submit" class="btn">Enviar</button>
-
-    </form>
-
-  </section> -->
-
   <footer>
     <div class="footer">
       <div class="container">
-        <div class="grid-12 footer_contato">
+        <div data-anime="600" class="grid-12 footer_contato fadeInDown">
           <h3>Contato</h3>
           <ul>
             <li>
@@ -102,7 +75,7 @@
           </ul>
         </div>
 
-        <div class="grid-4 footer_redes_sociais">
+        <div data-anime="600" class="grid-4 footer_redes_sociais fadeInDown">
           <h3>Redes Sociais</h3>
 
           <ul>
@@ -121,7 +94,8 @@
     </div>
   </footer>
 
-
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

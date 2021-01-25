@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsivo.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -33,17 +34,17 @@
 
   <section class="introducao capa_home">
     <div class="container">
-      <h1>J. Rousseau</h1>
-      <p>Design, Código e SEO</p>
-      <a href="contato.html" class="btn">Orçamento</a>
+      <h1 data-anime="300" class="fadeInDown">J. Rousseau</h1>
+      <p data-anime="600" class="fadeInDown">Design, Código e SEO</p>
+      <a data-anime="900" href="contato.html" class="btn">Orçamento</a>
     </div>
   </section>
 
   <!-- servicos -->
   <section class="servicos container">
-    <h2 class="subtitulo">Serviços</h2>
+    <h2 data-anime="1200" class="subtitulo fadeInDown">Serviços</h2>
 
-    <ul class="servicos_lista">
+    <ul data-anime="1200" class="servicos_lista fadeInDown">
 
       <li class="grid-1-3">
         <img src="img/websites-capa.jpg" alt="websites banner">
@@ -91,29 +92,34 @@
   <!-- portfolio -->
 
   <section class="portfolio">
-    <div class="container">
-      <h2 class="subtitulo">Portfólio</h2>
+    <h2 class="subtitulo">Portfólio</h2>
+    <div class="container" data-slide="portfolio">
+
       <ul class="portfolio_lista_pc">
         <li class="grid-8"><img src="./img/portfolio/portfolio-1.jpg" alt="Portfolio: arte para twitch"> </li>
         <li class="grid-8"><img src="./img/portfolio/portfolio-2.jpg" alt="Portfolio: arte para superliga ABCDE"> </li>
         <li class="grid-16"><img src="./img/portfolio/portfolio-3.jpg" alt="Portfolio: modelagem 3d"> </li>
       </ul>
 
+      <ul class="portfolio_lista_pc">
+        <li class="grid-8"><img src="./img/artes/arte-indianajones.jpg" alt="Arte do Indiana Jones"></li>
+        <li class="grid-8"><img src="./img/artes/arte-cenario-quarto.jpg" alt="Arte Cenário Quarto"></li>
+        <li class="grid-16"><img src="./img/artes/arte-rb.jpg" alt="Arte Jogo 2D"></li>
+      </ul>
+    </div>
+
+    <div class="container">
       <ul class="portfolio_lista_mobile">
         <li class="grid-11"><img src="./img/mobile/portfolio-1-mobile.jpg" alt="Cenário 3D"></li>
         <li class="grid-5"><img src="./img/mobile/portfolio-2-mobile.jpg" alt="Cenário 3D"></li>
         <li class="grid-16"><img src="./img/mobile/portfolio-3-mobile.jpg" alt="Cenário 3D"></li>
       </ul>
-
-
-
-
-      <div class="call_to_action">
-        <p>Confira meus projetos</p>
-        <a href="portfolio.html" class="btn_branco">Portfólio</a>
-      </div>
     </div>
 
+    <div class="call_to_action">
+      <p>Confira meus projetos</p>
+      <a href="portfolio.html" class="btn_branco">Portfólio</a>
+    </div>
   </section>
 
   <footer>
@@ -155,6 +161,9 @@
     </div>
   </footer>
 
+  <script src="./js/simple-slide.js"></script>
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 
 </body>
 
