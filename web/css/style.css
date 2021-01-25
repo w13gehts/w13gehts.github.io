@@ -343,6 +343,10 @@ h1 {
   font-size: 14px;
   line-height: 20px;
   color: #131313;
+
+  width: inherit;
+  height: inherit;
+  display: block;
 }
 
 .footer_contato ul li a span {
