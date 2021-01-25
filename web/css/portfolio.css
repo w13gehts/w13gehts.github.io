@@ -37,10 +37,10 @@
   padding-left: 100px;
 }
 
-.logotipos_websites li a {
+.logotipos_websites li a img {
   filter: grayscale(1);
 }
 
-.logotipos_websites li a:hover {
+.logotipos_websites li a img:hover {
   filter: none;
 }
