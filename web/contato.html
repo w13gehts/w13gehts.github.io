@@ -48,20 +48,26 @@
   <div class="background_escuro">
     <div data-anime="300" class="contato container fadeInDown">
 
-      <form id="form_contato" class="contato_form grid-">
+      <form id="form_contato" method="POST" action="./enviar-sendgrid.php" class="contato_form formphp">
         <label for="nome">Nome</label>
-        <input type="text" id="nome">
+        <input type="text" id="nome" name="nome" required>
 
         <label for="email">E-mail</label>
-        <input type="text" id="email">
+        <input type="email" id="email" name="email" required>
+
+        <label class="nao-aparece">Se você é uma pessoa, deixe em branco.</label>
+        <input type="text" class="nao-aparece" name="leaveblank">
+
+        <label class="nao-aparece">Se você é uma pessoa, não mexa neste campo.</label>
+        <input type="text" class="nao-aparece" name="dontchange" value="http://">
 
         <label for="telefone">Telefone</label>
-        <input type="text" id="telefone">
+        <input type="text" id="telefone" name="telefone">
 
         <label for="mensagem">Mensagem</label>
-        <textarea id="mensagem"></textarea>
+        <textarea id="mensagem" name="mensagem" required></textarea>
 
-        <button type="submit" class="btn">Enviar</button>
+        <button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
 
       </form>
     </div>
@@ -110,6 +116,7 @@
 
   <!-- scripts -->
   <script src="./js/simple-anime.js"></script>
+  <script src="./js/simple-form.js"></script>
   <script src="./js/script.js"></script>
 </body>
 
