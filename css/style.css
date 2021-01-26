@@ -69,6 +69,7 @@ h1 {
 .btn:hover {
   color: #ffd700;
   border: 3px solid #ffd700;
+  background: #131313ac;
 }
 
 .btn_preto {
