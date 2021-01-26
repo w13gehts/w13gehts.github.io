@@ -42,7 +42,6 @@
 
   .sobre {
     margin-top: 0;
-    /* margin-bottom: -180px; */
     height: 950px;
   }
 
@@ -59,7 +58,11 @@
     padding-top: 50px;
   }
   .quote-externo {
-    max-width: 450px;
+    max-width: 300px;
+  }
+
+  .quote-externo p {
+    font-size: 13px;
   }
 
   .portfolio_lista_pc {
