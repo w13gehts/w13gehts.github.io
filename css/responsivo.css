@@ -42,13 +42,13 @@
 
   .sobre {
     margin-top: 0;
-    margin-bottom: -180px;
+    /* margin-bottom: -180px; */
     height: 950px;
   }
 
   .sobre_mim {
     margin: 0 auto;
-    width: 420px;
+    width: 300px;
   }
 
   .sobre p {
